@@ -1,12 +1,45 @@
-.homepage{
+.homepage.elements{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
-    background-color: rgb(159, 231, 255) ;
+    background-color: white ;
     align-items: center;
+    display: block;
+    width: 500px;
+}
+.homepage.elements .one,.two,.three{
+   display: block; 
+   background-color: #548CA8;
+   padding: 20px;
+   width: 500px;
+   border: 2px solid black;
+   margin-left: 300px;
+   margin-right: 300px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.homepage.elements .one a,.two a,.three a{
+    color: white;
+}
+.homepage.elements .one a:hover,.two a:hover,.three a:hover{
+    color: #FFD700;
+}
+.two{
+    background-color: #476072;
+}
+.three{
+    background-color: #334257;
 }
 .homepage.title{
     font-size: 36px;
+    display: block;
     align-items: center;
+    border: 2px solid lightblue;
+    background-color: rgb(159, 231, 255);
+    padding-left: 40px;
+    /*padding-right: 40px;*/
+    width: 250px;
+    margin: auto;
 }
 .ingredients,p{
     font-family: 'Times New Roman', Times, serif;
